@@ -1,0 +1,58 @@
+.content {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.content-header {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.table, th, td {
+    border: 1px solid;
+    height: 30px;
+}
+
+.content-main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px red;
+    text-align: center;
+    width: 90%;
+    height: 400;
+}
+
+.content-footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body { 
+    background-image: url("BH.jpg");
+}
+
+td:hover {
+    background-color: red;
+}
+
+tr {
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    color: white;
+}
